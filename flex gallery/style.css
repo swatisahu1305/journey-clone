@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: auto;
+    width: 100%;
+    background-color: rgb(199, 199, 27);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: rgb(225,204,239);
+background: linear-gradient(90deg, rgba(225,204,239,1) 0%, rgba(246,131,131,1) 50%, rgba(249,213,163,1) 100%);
+
+}
+.box{
+    height: 200px;
+    width: 350px;
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+/* --------pseudo code */
+.box:first-child{
+    background-image: url(./trree.jpg);
+}
+.box:nth-child(2){
+    background-image: url(./leaf.jpg);
+}
+.box:nth-child(3){
+    background-image: url(./butterfly.jpg);
+}.box:nth-child(4){
+    background-image: url(./sun.jpeg);
+}.box:nth-child(5){
+    background-image: url(./nature.jpg);
+}.box:nth-child(6){
+    background-image: url(./many\ trees.webp);
+}.box:nth-child(7){
+    background-image: url(./what.webp);
+}.box:nth-child(8){
+    background-image: url(./very\ nice.jpeg);
+}.box:nth-child(9){
+    background-image: url(./nice.jpeg);
+}
+

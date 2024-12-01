@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    /* background-color: chocolate; */
+}
+nav{
+    height: 10%;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    padding-inline: 30px;
+    margin-block:5px;
+}
+.left-part h1{
+    font-size: 30px;
+     
+}
+.left-part{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    /* border: 1px solid black; */
+}
+.right-part{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    /* border: 1px solid black; */
+
+}
+
+.right-part button{
+    /* height: 30px;
+    width: 30%; */
+    border: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    background-color: black;
+    color: white;
+
+}
+.right-part button:first-child{
+    background-color: white;
+height:40px;
+width: 70px;
+border: 1px solid gray;
+color: black;
+}
+.right-part i{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.hero-section{
+    height: auto;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.hero-section h1{
+    font-size: 50px;
+    text-align: center;
+}
+.hero-section p{
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.text-part{
+    width: auto;
+    height: auto;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+.input-part{
+    height: auto;
+    width: auto;
+    margin-block: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.input-part input{
+    /* height: 50px; */
+    /* width: %; */
+    border: none;
+}
+.input-part button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    color:white;
+    background-color: black;
+    border-radius: 30px;
+
+
+}
+.input-part .boxes{
+    width: 300px;
+    height: 40px;
+    /* background-color: brown; */
+    align-items: center;
+    /* justify-content: space-evenly; */
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-inline: 20px;
+    padding-block: 10px;
+
+}
+
+
+
+ .list-section{
+    height: auto;
+    width: 100%;
+/* background-color: darkblue; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline:30px ;
+    margin-block: 5px;
+ }
+ .list-section h1{
+    font-size: 23px;
+ }
+ .list-section p{
+    font-size: 18px;
+ }
+ .card-section{
+    width: 100%;
+    height: auto;
+    /* background-color: darkorchid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+ }
+ .card{
+    height: 200px;
+    width: 300px;
+    background-color: chartreuse;
+    border: 1px sloid black;
+    border-radius: 30px;
+    padding: 20px;
+    margin-block: 20px;
+    margin-inline: 20px;
+
+ }
+ .card p{
+    font-size: 15px;
+    color: gray;
+
+ }
+ .card h6{
+    margin-block: 10px;
+    font-size: 20px;
+ }
+ .card h5{
+    font-size:13px ;
+    line-height: 16px;
+
+ }
+ .card .mini-box{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 20px;
+ }
+ .mini-box button{
+    height: 20px;
+    width: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+
+ }
+ .card:nth-child(2){
+    background-color: hotpink;
+ }
+.card:nth-child(3){
+    background-color:cadetblue;
+}
+ .card:last-child{
+    background-color: gold
+ }
+
+ /* responsive----- */
+@media (max-width:480px) {
+    .container{
+        height: auto;
+        width: 100%;
+    }
+    nav{
+        height: 10%;
+        width: 100%;
+        /* background-color: cadetblue; */
+        margin-top: 10px;
+    }
+    .right-part button{
+        display: none;
+    }
+    .left-part h1{
+        font-size: 25px;
+    }
+    .hero-section{
+        /* background-color: aquamarine; */
+        width: 100%;
+        height: auto;
+    }
+    .hero-section h1{
+        font-size:36px;
+    }
+    .hero-section p{
+        font-size: 16px;
+    }
+    .input-part{
+        height: auto;
+        width: 100%;
+        /* background-color: brown; */
+        display: flex;
+        flex-direction: column;
+    }
+    .input-part button{
+        margin-top: 5px;
+    }
+    .card-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+ 

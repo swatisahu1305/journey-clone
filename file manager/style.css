@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.container{
+    height: auto;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.small-container{
+    height: 600px;
+    width: 900px;
+    background-color: white;
+}
+nav{
+    height: 8%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: aqua;
+    
+}
+.mid-part{
+    width: 30%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-evenly;
+}
+nav img{
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+nav .icon2{
+    margin-left: 20px;
+}
+nav .right-part{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    align-items: center;
+    /* margin-top: 10px; */
+    /* background-color: hotpink; */
+    
+}
+nav .right-part i{
+    /* margin-top: 8px; */
+}
+nav .left-part{
+    width: 20%;
+    /* background-color: darkkhaki; */
+}
+nav .mid-part a{
+    text-decoration: none;
+    color: black;
+}
+nav .right-part a{
+    text-decoration: none;
+    color: black;
+}
+nav .right-part button{
+    height: 30px;
+    width: 30%;
+    border: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    color:black;
+    background-color:white;
+}
+.second-container{
+    height:10%;
+    width: 100%;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline:100px;
+
+}
+.second-container .left-container{
+    display: flex;
+}
+.third-container{
+    height:auto;
+    width: 100%;
+    background-color: rgb(95, 132, 160);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.third-container h1{
+    text-align: center;
+}
+.third-container p{
+    text-align: center;
+}
+.input-section{
+    height: 20%;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-section .input-part{
+    height: 55%;
+    width: 35%;
+    background-color: chartreuse;
+    border: none;
+    border: 1px solid black;
+    border-radius:20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 2px;
+
+}
+.input-section input{
+    border: none;
+    background-color: transparent;
+}
+.input-section button{
+    height: 30px; 
+    width:80px ;
+    color:white;
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+}
+.forth-container{
+    height: 7%;
+    width: 100%;
+    background-color: darkorange;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+
+}
+.card-section{
+    height: 300px;
+    width: 100%;
+    background-color: grey;
+}
